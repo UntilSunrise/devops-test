@@ -10,4 +10,4 @@ deploy:
     branch: prod
     tags: true
 script:
-    - firebase deploy
+    - firebase deploy --token "$FIREBASE_TOKEN"
