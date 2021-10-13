@@ -7,7 +7,7 @@ deploy:
   provider: firebase
   skip_cleanup: true
   on:
-    branch: prod
+    branch: main
     tags: true
 script:
     - firebase deploy --token "$FIREBASE_TOKEN"
